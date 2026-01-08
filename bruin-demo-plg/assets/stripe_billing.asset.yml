@@ -1,0 +1,30 @@
+name: stripe_billing
+type: bq.seed
+description: Raw payment transaction events from Stripe
+
+parameters:
+    path: stripe_billing.csv
+
+columns:
+  - name: payment_id
+    type: STRING
+    description: Unique payment identifier
+    primary_key: true
+  - name: user_id
+    type: STRING
+    description: User identifier
+  - name: user_email
+    type: STRING
+    description: User email
+  - name: payment_date
+    type: DATE
+    description: Payment date
+  - name: amount
+    type: INTEGER
+    description: Payment amount ($)
+  - name: status
+    type: STRING
+    description: Payment status (succeeded/failed)
+  - name: plan
+    type: STRING
+    description: Subscription plan

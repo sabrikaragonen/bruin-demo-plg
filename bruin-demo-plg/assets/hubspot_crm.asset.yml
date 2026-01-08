@@ -1,0 +1,36 @@
+name: hubspot_crm
+type: bq.seed
+description: Sales deals and pipeline from HubSpot CRM
+
+parameters:
+    path: hubspot_crm.csv
+
+columns:
+  - name: deal_id
+    type: STRING
+    description: Unique deal identifier
+    primary_key: true
+  - name: user_id
+    type: STRING
+    description: User identifier
+  - name: user_email
+    type: STRING
+    description: User email
+  - name: deal_stage
+    type: STRING
+    description: Deal stage (Lead/Discovery/Proposal/Negotiation/Closed Won)
+  - name: deal_value
+    type: INTEGER
+    description: Deal value ($)
+  - name: account_owner
+    type: STRING
+    description: Sales rep name
+  - name: created_at
+    type: DATE
+    description: Deal creation date
+  - name: last_activity_at
+    type: DATE
+    description: Last activity date
+  - name: is_upsell
+    type: BOOLEAN
+    description: Whether deal is an upsell opportunity

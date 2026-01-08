@@ -1,0 +1,30 @@
+name: users
+type: bq.seed
+description: User master data for PLG company
+
+parameters:
+    path: users.csv
+
+columns:
+  - name: user_id
+    type: STRING
+    description: Unique user identifier
+    primary_key: true
+  - name: user_email
+    type: STRING
+    description: User email
+  - name: company_id
+    type: STRING
+    description: Company identifier
+  - name: company_name
+    type: STRING
+    description: Company name
+  - name: plan
+    type: STRING
+    description: Subscription plan (Free/Starter/Pro/Enterprise)
+  - name: signup_date
+    type: DATE
+    description: User signup date
+  - name: user_role
+    type: STRING
+    description: User role (admin/member)

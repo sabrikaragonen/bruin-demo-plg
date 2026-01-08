@@ -1,0 +1,36 @@
+name: intercom_comms
+type: bq.seed
+description: Raw support ticket events from Intercom
+
+parameters:
+    path: intercom_comms.csv
+
+columns:
+  - name: ticket_id
+    type: STRING
+    description: Unique ticket identifier
+    primary_key: true
+  - name: user_id
+    type: STRING
+    description: User identifier
+  - name: user_email
+    type: STRING
+    description: User email
+  - name: created_at
+    type: TIMESTAMP
+    description: Ticket creation time
+  - name: resolved_at
+    type: TIMESTAMP
+    description: Ticket resolution time (null if open)
+  - name: status
+    type: STRING
+    description: Ticket status (open/resolved)
+  - name: category
+    type: STRING
+    description: Ticket category (bug/billing/question/feature_request/account)
+  - name: sentiment
+    type: STRING
+    description: Customer sentiment (Angry/Frustrated/Neutral/Happy)
+  - name: message
+    type: STRING
+    description: Ticket message content

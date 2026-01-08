@@ -1,0 +1,21 @@
+deal_id,user_id,user_email,deal_stage,deal_value,account_owner,created_at,last_activity_at,is_upsell
+D_001,U_001,zeta@startup.io,Negotiation,15000,Sarah,2025-12-01,2026-01-07,TRUE
+D_002,U_002,beta@bigcorp.com,Closed Won,50000,Mike,2024-06-15,2025-12-20,FALSE
+D_003,U_003,gamma@web3.net,Discovery,8000,Tom,2025-11-10,2026-01-05,TRUE
+D_004,U_004,delta@dev.co,Closed Won,75000,Sarah,2024-03-20,2025-11-15,FALSE
+D_005,U_005,epsilon@saas.com,Lead,2000,Mike,2025-12-15,2026-01-03,FALSE
+D_006,U_006,fozzy@bear.com,Closed Won,500,Tom,2025-12-01,2025-12-28,FALSE
+D_007,U_007,geo@map.com,Closed Won,3500,Sarah,2025-09-10,2025-12-10,FALSE
+D_008,U_008,hugh@large.com,Lead,1000,Mike,2026-01-02,2026-01-06,FALSE
+D_009,U_009,iris@eye.com,Closed Won,12000,Tom,2025-06-20,2025-11-30,FALSE
+D_010,U_010,jack@box.com,Lead,500,Sarah,2026-01-05,2026-01-07,FALSE
+D_011,U_011,kyle@run.com,Closed Won,4000,Mike,2025-10-15,2025-12-18,FALSE
+D_012,U_012,luna@space.com,Lead,800,Tom,2025-12-28,2026-01-04,FALSE
+D_013,U_013,mope@sad.com,Discovery,2500,Sarah,2025-11-20,2026-01-02,FALSE
+D_014,U_014,neo@matrix.io,Closed Won,100000,Mike,2024-05-01,2025-10-25,FALSE
+D_015,U_015,oscar@wild.org,Proposal,20000,Tom,2025-10-01,2026-01-07,TRUE
+D_016,U_016,pete@moss.com,Closed Won,2800,Sarah,2025-11-25,2025-12-20,FALSE
+D_017,U_017,queen@bee.io,Lead,600,Mike,2026-01-03,2026-01-06,FALSE
+D_018,U_018,ray@sun.com,Closed Won,5500,Tom,2025-09-28,2025-12-15,FALSE
+D_019,U_019,stan@marsh.com,Closed Won,900,Sarah,2025-12-05,2025-12-22,FALSE
+D_020,U_020,tom@jerry.com,Closed Won,3200,Mike,2025-10-20,2025-12-12,FALSE

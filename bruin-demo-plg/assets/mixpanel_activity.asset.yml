@@ -1,0 +1,33 @@
+name: mixpanel_activity
+type: bq.seed
+description: Raw product usage events from Mixpanel
+
+parameters:
+    path: mixpanel_activity.csv
+
+columns:
+  - name: event_id
+    type: STRING
+    description: Unique event identifier
+    primary_key: true
+  - name: user_id
+    type: STRING
+    description: User identifier
+  - name: user_email
+    type: STRING
+    description: User email
+  - name: event_type
+    type: STRING
+    description: Event type (login/feature_use/api_call)
+  - name: event_timestamp
+    type: TIMESTAMP
+    description: Event timestamp
+  - name: feature
+    type: STRING
+    description: Feature used (dashboard/reports/analytics/integrations/api)
+  - name: session_duration_sec
+    type: INTEGER
+    description: Session duration in seconds
+  - name: error_code
+    type: STRING
+    description: Error code if any (400/500/null)
