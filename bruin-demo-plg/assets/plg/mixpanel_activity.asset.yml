@@ -1,9 +1,8 @@
-name: mixpanel_activity
 type: bq.seed
 description: Raw product usage events from Mixpanel
 
 parameters:
-    path: mixpanel_activity.csv
+    path: ../../../../seed-data/plg/mixpanel_activity.csv
 
 columns:
   - name: event_id

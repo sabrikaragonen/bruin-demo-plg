@@ -1,9 +1,8 @@
-name: users
 type: bq.seed
 description: User master data for PLG company
 
 parameters:
-    path: users.csv
+    path: ../../../../seed-data/plg/users.csv
 
 columns:
   - name: user_id

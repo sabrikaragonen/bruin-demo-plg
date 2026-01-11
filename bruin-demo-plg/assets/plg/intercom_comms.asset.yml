@@ -1,9 +1,8 @@
-name: intercom_comms
 type: bq.seed
 description: Raw support ticket events from Intercom
 
 parameters:
-    path: intercom_comms.csv
+    path: ../../../../seed-data/plg/intercom_comms.csv
 
 columns:
   - name: ticket_id

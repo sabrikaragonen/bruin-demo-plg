@@ -1,9 +1,8 @@
-name: stripe_billing
 type: bq.seed
 description: Raw payment transaction events from Stripe
 
 parameters:
-    path: stripe_billing.csv
+    path: ../../../../seed-data/plg/stripe_billing.csv
 
 columns:
   - name: payment_id

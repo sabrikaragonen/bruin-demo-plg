@@ -1,9 +1,8 @@
-name: hubspot_crm
 type: bq.seed
 description: Sales deals and pipeline from HubSpot CRM
 
 parameters:
-    path: hubspot_crm.csv
+    path: ../../../../seed-data/plg/hubspot_crm.csv
 
 columns:
   - name: deal_id
