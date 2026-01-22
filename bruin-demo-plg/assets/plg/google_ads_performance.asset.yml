@@ -1,0 +1,31 @@
+name: plg.google_ads_performance
+type: ingestr
+
+parameters:
+  source_connection: gsheets
+  source_table: '1d0oWVxnmZO_I7ojnqT2U8_K-OShMRzyHlTp1rl8tux0.Google Ads Performance Data Analysis'
+  destination: bigquery
+
+description: |
+  Marketing spend data from Google Ads campaigns.
+  Source: Google Sheets - Google Ads Performance Data Analysis
+
+columns:
+  - name: campaign
+    type: string
+    description: Name of the advertising campaign
+  - name: date
+    type: date
+    description: Date of the performance data
+  - name: impressions
+    type: integer
+    description: Number of ad impressions
+  - name: clicks
+    type: integer
+    description: Number of ad clicks
+  - name: spend
+    type: float
+    description: Amount spent on the campaign
+  - name: conversions
+    type: integer
+    description: Number of conversions from the campaign
